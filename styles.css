@@ -1,0 +1,80 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: green;
+    margin: 0;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+    gap: 10px;
+}
+
+.menu .menu-item {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    gap: 10px;
+}
+
+.menu label,
+.menu select,
+.menu input,
+.menu button {
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    padding: 5px 10px;
+}
+
+.menu button {
+    margin: 0 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, color 0.2s;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2em;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.bar {
+    margin: 0 1px;
+    background-color: green;
+    width: 10px;
+    transition: height 0.2s;
+}
